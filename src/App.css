@@ -1,0 +1,77 @@
+.container-fluid{
+    background-color: rgb(11, 122, 11);
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.whatsapp_inquirey  {
+   display:flex;
+   justify-content: end;
+   align-items: center;
+   gap: 10px;
+   padding: 20px;
+  
+}
+/* icons */
+.icons {
+  /* Define your desired color */
+    margin-left: -10px;
+
+}
+.icons:hover{
+    color : black;
+}
+
+
+/* logo */
+.logo{
+
+    display:flex;
+    justify-content: flex-start;
+    width: 230px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.marquee_msg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+    color: aliceblue;
+    width: 100%;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(38, 166, 91, 0.5);
+    font-size: 16px; 
+    text-align: center; 
+    overflow:hidden;
+}
+
+.home h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 4em;
+}
+
+.home h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size: 2em;
+    align-items: center;
+}
+
+.nav-link {
+    color: yellow; 
+  }
+
+  .nav-link:hover {
+    color: black; /* Hover color */
+  }
+
+  .nav-link:focus,
+  .nav-link:active {
+    color: yellow;
+  
+  }
+  
